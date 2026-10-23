@@ -1,0 +1,47 @@
+// =============================================================================
+// DESIGN TOKENS - ITom Portfolio
+// =============================================================================
+
+// Colors
+$color-white: #FFFFFF;
+$color-black: #0A0A0A;
+$color-gray: #1A1A1A;
+$color-neon-green: #39FF14;
+
+// Typography
+$font-title: 'Gloria Hallelujah', cursive;
+$font-handwritten: 'Caveat', cursive;
+$font-sketch: 'Cabin Sketch', cursive;
+$font-patrick: 'Patrick Hand', cursive, sans-serif;
+$font-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+// Comprehensive Universal Breakpoints (Master Specification)
+$breakpoint-mobile-sm: 380px;   // Small smartphones (320px - 380px)
+$breakpoint-mobile: 480px;      // Standard smartphones (381px - 480px)
+$breakpoint-tablet-sm: 600px;   // Phablets & small tablets (481px - 600px)
+$breakpoint-tablet: 768px;      // Tablets portrait / foldables (601px - 768px)
+$breakpoint-laptop: 1024px;     // Tablets landscape / small laptops (769px - 1024px)
+$breakpoint-desktop: 1366px;    // Standard laptops / desktops (1025px - 1366px)
+$breakpoint-wide: 1440px;       // Large desktop monitors (1367px - 1920px)
+$breakpoint-ultrawide: 2560px;  // 4K displays & ultrawide monitors (2560px+)
+
+// Universal Touch Target Minimum (WCAG 2.1 AAA Target Size)
+$touch-target-min: 44px;
+
+// Z-index layers
+$z-preloader: 100;
+$z-canvas: 1;
+$z-ui: 50;
+
+// Transitions
+$transition-fast: 0.2s ease;
+$transition-normal: 0.4s ease;
+$transition-slow: 0.8s ease;
+$transition-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+// Fluid Spacing
+$spacing-xs: clamp(0.25rem, 1vw, 0.5rem);
+$spacing-sm: clamp(0.5rem, 1.5vw, 1rem);
+$spacing-md: clamp(1rem, 3vw, 2rem);
+$spacing-lg: clamp(2rem, 5vw, 4rem);
+$spacing-xl: clamp(3rem, 8vw, 8rem);
